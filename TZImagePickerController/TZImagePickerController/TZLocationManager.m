@@ -28,7 +28,7 @@
         manager = [[self alloc] init];
         manager.locationManager = [[CLLocationManager alloc] init];
         manager.locationManager.delegate = manager;
-        [manager.locationManager requestWhenInUseAuthorization];
+//        [manager.locationManager requestWhenInUseAuthorization];
     });
     return manager;
 }

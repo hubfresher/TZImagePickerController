@@ -43,6 +43,9 @@
 		90A74B85203287C200D84C2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90A74B83203287C200D84C2A /* Localizable.strings */; };
 		90CE84AE1C3A89EF003D0779 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE84AD1C3A89EF003D0779 /* TZImageManager.m */; };
 		90CE84B71C3BABB6003D0779 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CE84B61C3BABB6003D0779 /* TZVideoPlayerController.m */; };
+		95F5B2822599C18D00F96DF1 /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 902938D61EE2D02C000F2F8F /* TZLocationManager.h */; };
+		95F5B2862599C19000F96DF1 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 902938D71EE2D02C000F2F8F /* TZLocationManager.m */; };
+		95F5B2872599C19100F96DF1 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 902938D71EE2D02C000F2F8F /* TZLocationManager.m */; };
 		9F763A4A1FA071D000D9E526 /* TZImagePickerController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F763A421FA071CF00D9E526 /* TZImagePickerController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F763A501FA072E500D9E526 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 900EEFF71C2BBF9500EA709B /* TZImagePickerController.m */; };
 		9F763A521FA072E500D9E526 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 900EEFFD1C2BD58B00EA709B /* TZPhotoPickerController.m */; };
@@ -387,6 +390,7 @@
 				9F763A741FA0741D00D9E526 /* TZGifPhotoPreviewController.h in Headers */,
 				9005E2B5257A462E002A8682 /* UIView+TZLayout.h in Headers */,
 				9F763A761FA0741D00D9E526 /* TZImageManager.h in Headers */,
+				95F5B2822599C18D00F96DF1 /* TZLocationManager.h in Headers */,
 				9F763A711FA0741D00D9E526 /* TZPhotoPreviewController.h in Headers */,
 				9F763A721FA0741D00D9E526 /* TZPhotoPreviewCell.h in Headers */,
 				9F763A701FA0741D00D9E526 /* TZAssetCell.h in Headers */,
@@ -483,7 +487,7 @@
 				TargetAttributes = {
 					900E657B1C2BB8D5003D9A9E = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = LTFQDC2QVX;
+						DevelopmentTeam = P2ZL3LJVPZ;
 						ProvisioningStyle = Automatic;
 					};
 					900E65941C2BB8D5003D9A9E = {
@@ -586,6 +590,7 @@
 				901F2296215CABD600F604ED /* FLAnimatedImageView.m in Sources */,
 				9019FD8D21EC25D7009ADEAE /* TZImageUploadOperation.m in Sources */,
 				900E65811C2BB8D5003D9A9E /* main.m in Sources */,
+				95F5B2872599C19100F96DF1 /* TZLocationManager.m in Sources */,
 				900EF0121C2C107400EA709B /* TZPhotoPreviewController.m in Sources */,
 				901CC3FC21CB758500C55443 /* TZImageRequestOperation.m in Sources */,
 				6D5358CD1D64600F00928CC6 /* NSBundle+TZImagePicker.m in Sources */,
@@ -622,6 +627,7 @@
 				9F763A581FA072E500D9E526 /* TZPhotoPreviewController.m in Sources */,
 				9005E2B4257A462E002A8682 /* UIView+TZLayout.m in Sources */,
 				9F763A5A1FA072E500D9E526 /* TZPhotoPreviewCell.m in Sources */,
+				95F5B2862599C19000F96DF1 /* TZLocationManager.m in Sources */,
 				9F763A5C1FA072E500D9E526 /* TZVideoPlayerController.m in Sources */,
 				9F763A5E1FA072E500D9E526 /* TZGifPhotoPreviewController.m in Sources */,
 				9F763A601FA072E500D9E526 /* TZProgressView.m in Sources */,
@@ -793,7 +799,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFQDC2QVX;
+				DEVELOPMENT_TEAM = P2ZL3LJVPZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TZImagePickerController",
@@ -817,7 +823,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFQDC2QVX;
+				DEVELOPMENT_TEAM = P2ZL3LJVPZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TZImagePickerController",
