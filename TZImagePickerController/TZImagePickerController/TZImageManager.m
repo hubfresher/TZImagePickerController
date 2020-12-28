@@ -544,9 +544,10 @@ static dispatch_once_t onceToken;
     [[PHPhotoLibrary sharedPhotoLibrary] performChanges:^{
         PHAssetChangeRequest *request = [PHAssetChangeRequest creationRequestForAssetFromImageAtFileURL:tmpURL];
         localIdentifier = request.placeholderForCreatedAsset.localIdentifier;
-        if (location) {
-            request.location = location;
-        }
+        //TODO 去除定位权限
+//        if (location) {
+//            request.location = location;
+//        }
         request.creationDate = [NSDate date];
     } completionHandler:^(BOOL success, NSError *error) {
         [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
